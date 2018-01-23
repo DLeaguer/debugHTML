@@ -124,30 +124,83 @@ div{
 }
 
 #shine1, #shine2, #shine3, #shine4, #shine5{
-  width: 150px;
-  height: 150px;
+  width: 450px;
+  height: 350px;
   margin: 10px auto;
+  display: block;
   background-color: transparent;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center top;
 }
 
 #shine1{
   background-image: url('../images/star-01.png');
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#star-01{
+ display:block;
+  margin-left:auto;
+  margin-right:auto;
+  background-position: center center; 
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 #shine2{
   background-image: url('../images/star-02.png');
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width: 450px;
+  height: 250px;
+  margin: 10px auto;
+  display: block;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+#star-02{
+ display:block;
+  margin-left:auto;
+  margin-right:auto; 
+  background-position: center center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 #shine3{
   background-image: url('../images/star-03.png');
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  height: 250px;
+}
+
+#star-03{
+ display:block;
+  margin-left:auto;
+  margin-right:auto; 
+  background-position: center top;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 #shine4{
   background-image: url('../images/star-04.png');
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 50px;
+  margin-bottom: 50px; 
+  height: 100px;
 }
 
 #shine5{
   background-image: url('../images/star-05.png');
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
